@@ -39,9 +39,6 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {
-        "husky": "^7.0.4"
-    },
     "husky": {
         "hooks": {
             "pre-commit": "npm run lint && npm run format"
