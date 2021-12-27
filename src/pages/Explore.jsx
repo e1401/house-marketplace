@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import rentCategoryImage from '../assets/jpg/rentCategoryImage.jpg';
-import sellCategoryImage from '../assets/jpg/sellCategoryImage.jpg';
+import RentCategoryImage from '../assets/jpg/rentCategoryImage.jpg';
+import SellCategoryImage from '../assets/jpg/sellCategoryImage.jpg';
 
 function Explore() {
     return (
@@ -14,15 +14,15 @@ function Explore() {
                 <div className='exploreCategories'>
                     <Link to='/category/rent'>
                         <img
-                            src={rentCategoryImage}
+                            src={RentCategoryImage}
                             alt='Rent category'
                             className='exploreCategoryImg'
                         />
                         <p className='exploreCategoryName'>Places for Rent</p>
                     </Link>
-                    <Link to='/category/sell'>
+                    <Link to='/category/sale'>
                         <img
-                            src={sellCategoryImage}
+                            src={SellCategoryImage}
                             alt='Sell category'
                             className='exploreCategoryImg'
                         />
