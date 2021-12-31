@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { getDoc, doc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { db } from '../firebase.config';
-import { toast } from 'react-toastify';
+
 import Spinner from '../components/Spinner';
 import shareIcon from '../assets/svg/shareIcon.svg';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
@@ -63,7 +63,6 @@ function SingleListing() {
                     setTimeout(() => {
                         setShareLinkCopied(false);
                     }, 2000);
-                    // toast.success('Link has been copied');
                 }}
             >
                 <img src={shareIcon} alt="share" />
