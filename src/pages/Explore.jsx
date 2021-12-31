@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import RentCategoryImage from '../assets/jpg/rentCategoryImage.jpg';
 import SellCategoryImage from '../assets/jpg/sellCategoryImage.jpg';
 import Slider from '../components/Slider';
-import 'swiper/swiper-bundle.css';
 
 function Explore() {
     return (
