@@ -13,6 +13,7 @@ import Category from './pages/Category';
 import CreateListing from './pages/CreateListing';
 import SingleListing from './pages/SingleListing';
 import Contact from './pages/Contact';
+import EditListing from './pages/EditListing';
 
 function App() {
     return (
@@ -40,6 +41,10 @@ function App() {
                         element={<SingleListing />}
                     />
                     <Route path="/contact/:landlordId" element={<Contact />} />
+                    <Route
+                        path="/edit-listing/:listingId"
+                        element={<EditListing />}
+                    />
                 </Routes>
                 {/* navbar here   */}
                 <Navbar />
