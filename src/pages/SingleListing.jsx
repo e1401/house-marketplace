@@ -80,7 +80,7 @@ function SingleListing() {
                               .toString()
                               .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
                 </p>
-                <p className="lisitingLocation">{listing.location}</p>
+                <p className="listingLocation">{listing.location}</p>
                 <p className="listingType">
                     For {listing.type === 'rent' ? 'rent' : 'sale'}
                 </p>

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import RentCategoryImage from '../assets/jpg/rentCategoryImage.jpg';
+import RentCategoryImage from '../assets/jpg/rentCategoryImage.png';
 import SellCategoryImage from '../assets/jpg/sellCategoryImage.jpg';
 import Slider from '../components/Slider';
 
@@ -19,7 +19,7 @@ function Explore() {
                             alt="Rent category"
                             className="exploreCategoryImg"
                         />
-                        <p className="exploreCategoryName">Places for Rent</p>
+                        <p className="exploreCategoryName">Offices for Rent</p>
                     </Link>
                     <Link to="/category/sale">
                         <img
@@ -27,7 +27,7 @@ function Explore() {
                             alt="Sell category"
                             className="exploreCategoryImg"
                         />
-                        <p className="exploreCategoryName">Places for Sale</p>
+                        <p className="exploreCategoryName">Offices for Sale</p>
                     </Link>
                 </div>
             </main>
