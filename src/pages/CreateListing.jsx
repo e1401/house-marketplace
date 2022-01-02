@@ -263,7 +263,7 @@ function CreateListing() {
                         id="name"
                         value={name}
                         onChange={onMutate}
-                        maxLength="32"
+                        maxLength="70"
                         minLength="10"
                         required
                     />
@@ -433,7 +433,7 @@ function CreateListing() {
                             required
                         />
                         {type === 'rent' && (
-                            <p className="formPriceText">$ / Month</p>
+                            <p className="formPriceText">€ / Month</p>
                         )}
                     </div>
 
@@ -457,7 +457,8 @@ function CreateListing() {
 
                     <label className="formLabel">Images</label>
                     <p className="imagesInfo">
-                        The first image will be the cover (max 6).
+                        The first image will be the cover (max 6, supported
+                        types: jpg, jpeg and png).
                     </p>
                     <input
                         className="formInputFile"

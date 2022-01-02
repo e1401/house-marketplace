@@ -53,6 +53,7 @@ function Contact() {
                                 className="textarea"
                                 value={message}
                                 onChange={onChange}
+                                rows="9"
                             ></textarea>
                         </div>
                         <a
